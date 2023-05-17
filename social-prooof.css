@@ -1,0 +1,164 @@
+
+:root{
+  --color-review:#e7ebc6;
+}
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f0f0;
+  max-width: 1000px;
+  margin:20px auto;
+  font-size: 15px;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+.intro-text{
+ 
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 20px;
+}
+.text-of-confirmation{
+  width: 300px;
+  margin: 0 auto;
+ 
+}
+.text-of-confirmation h1{
+  padding-bottom: 2em;
+  color:rgb(161, 114, 67);
+}
+.text-of-confirmation p{
+  color:rgb(161, 114, 67);
+  opacity: 80%;
+  line-height: 1.5;
+}
+.reviews{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: self-end;
+  color: #272525;
+  margin:0px 20px;
+  font-weight: 600;
+}
+
+.review1{
+  background-color: var( --color-review);
+   margin:20px 100px 20px 10px;
+   padding: 18px;
+ }
+.review2{
+   background-color:var( --color-review);
+   margin:12px 50px 12px 40px ;
+   padding: 18px;
+ }
+.review3{
+   background-color:var( --color-review);
+   margin:12px 20px 12px 80px ;
+   padding: 18px;
+ }
+ .main-reviews{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:16px;
+  margin:60px 75px;
+
+ }
+.profile{
+  margin:18px;
+  background-color: hsl(300, 43%, 22%);
+  padding: 22px;
+  border-radius: 7px;
+}
+.profile p{
+  color: #f0f5f5;
+  opacity: 80%;
+}
+.img-name{
+  display: flex;
+  margin-bottom: 17px;
+}
+.image-real{
+  width:40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.name{
+  padding-left:12px;
+}
+.name h3{
+  color: #f0f5f5;
+  opacity: 80%;
+}
+.name span{
+  color: hsl(39, 100%, 50%);
+  opacity: 80%;
+}
+.sizing-card2{
+  margin-top:42px;
+  margin-bottom:-12px;
+}
+.sizing-card3{
+  margin-top:62px;
+  margin-bottom:-32px;
+}
+.attribution{
+  text-align: center;
+  margin-top: -35px;
+}
+@media(max-width:600px){
+  body{
+    text-align: left;
+  }
+  .intro-text{
+    display:grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .reviews{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+  .review1{
+    background-color:var( --color-review);
+    margin:20px 10px 20px 10px;
+    padding: 18px;
+  }
+  .review2{
+    margin:12px 12px;
+    margin:20px px 20px 100px;
+  }
+  .profile{
+    margin: 12px 43px;
+    line-height: 1.2;
+  }
+
+  .review3{
+    margin:20px 10px 20px 10px;
+  }
+  .main-reviews{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:6px;
+    margin:12px auto;
+   }
+   .attribution{
+    text-align: center;
+    margin-top:25px;
+  }
+  .text-of-confirmation h1 {
+  font-size: 21px;
+  margin-left: 25px;
+  }
+  .text-of-confirmation p {
+
+  margin-left: 25px;
+  }
+}
+
+  
